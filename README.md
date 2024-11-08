@@ -23,9 +23,14 @@
      ```
 2. **Chạy ứng dụng**:
    - Có thể bổ sung thêm data vào file "./data/data.txt"
+   - Nếu đã có cài đặt sẵn ollama và mô hình llama3.2 trên local, thực hiện lệnh sau để cải thiện thời gian phản hồi:
+      ```bash
+      ollama run llama3.2
+      ```
    - Chạy ứng dụng bằng cách sử dụng:
      ```bash
-     python app.py
+     cd langchain
+     python chatbot.py
      ```
    - Ứng dụng sẽ khởi động giao diện Gradio để người dùng có thể tương tác.
 
