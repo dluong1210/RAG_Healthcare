@@ -5,8 +5,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_ollama.llms import OllamaLLM
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
 from sentence_transformers import SentenceTransformer
 from tools import cosine_similarity
 
